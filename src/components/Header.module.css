@@ -1,0 +1,129 @@
+.wrapper {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  background: var(--color-blanco);
+}
+
+.topBar {
+  display: flex;
+  justify-content: flex-end;
+  gap: 24px;
+  padding: 10px 56px;
+  background: var(--color-hueso);
+  border-bottom: 1px solid var(--color-borde);
+  font-size: 13px;
+  color: var(--color-gris-piedra);
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 18px 56px;
+  background: var(--color-blanco);
+  border-bottom: 1px solid var(--color-borde);
+  position: relative;
+}
+
+@media (max-width: 820px) {
+  .header {
+    padding: 14px 20px;
+  }
+}
+
+.logoButton {
+  background: none;
+  border: none;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 34px;
+  width: auto;
+  object-fit: contain;
+}
+
+.nav {
+  display: flex;
+  gap: 34px;
+  align-items: center;
+}
+
+.navMobile {
+  display: none;
+  flex-direction: column;
+  gap: 0;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background: var(--color-blanco);
+  padding: 4px 20px 10px;
+  box-shadow: var(--shadow-menu);
+  z-index: 10;
+}
+
+.navOpen {
+  display: flex;
+}
+
+.navLink {
+  font-weight: 600;
+  font-size: 15px;
+  color: var(--color-gris-texto);
+  transition: color 0.15s ease;
+}
+
+.navLink:hover {
+  color: var(--color-verde-cta);
+}
+
+.navLinkMobile {
+  font-size: 17px;
+  padding: 14px 0;
+  border-bottom: 1px solid var(--color-borde);
+}
+
+.navLinkActive {
+  color: var(--color-verde-salvia);
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.cta {
+  background: var(--color-verde-cta);
+  color: var(--color-blanco);
+  font-weight: 600;
+  font-size: 14px;
+  padding: 13px 26px;
+  border-radius: var(--radius-pill);
+  white-space: nowrap;
+  transition: background 0.15s ease;
+}
+
+.cta:hover {
+  background: #6d8a3c;
+}
+
+@media (max-width: 820px) {
+  .cta {
+    font-size: 13px;
+    padding: 10px 16px;
+  }
+}
+
+.menuToggle {
+  background: none;
+  border: none;
+  font-size: 24px;
+  color: var(--color-carbon);
+  line-height: 1;
+  padding: 0;
+}

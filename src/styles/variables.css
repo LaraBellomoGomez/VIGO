@@ -1,0 +1,48 @@
+/**
+ * Design tokens — VIGO Odontología Integral
+ * Fuente: Manual de marca (colores, tipografía, radios).
+ */
+:root {
+  /* Color — primario */
+  --color-verde-salvia: #c3d6a0; /* acento, texto destacado, links */
+  --color-verde-cta: #7c9a46; /* botones de acción (más saturado que el salvia) */
+  --color-verde-claro: #e6efd3; /* fondos suaves / tarjetas */
+  --color-tan: #e4d9c3; /* alternancia de tarjetas de tratamiento */
+
+  /* Color — neutros */
+  --color-carbon: #3a3a35; /* texto principal, footer */
+  --color-gris-piedra: #767669; /* texto secundario */
+  --color-gris-texto: #6b6b64; /* párrafos */
+  --color-gris-suave: #8a8a83; /* labels pequeñas */
+  --color-hueso: #f7f8f2; /* fondo de secciones alternas */
+  --color-borde: #eceae0;
+  --color-blanco: #ffffff;
+  --color-footer-texto: #c9c9c1;
+
+  /* Tipografía */
+  --font-titulos: 'Poppins', sans-serif;
+  --font-texto: 'Inter', sans-serif;
+
+  --fs-h1: 46px;
+  --fs-h1-mobile: 30px;
+  --fs-h2: 38px;
+  --fs-h3: 32px;
+  --fs-body: 16px;
+  --fs-small: 14px;
+
+  /* Espaciado */
+  --section-padding: 70px 56px 90px;
+  --section-padding-mobile: 40px 20px 56px;
+  --page-max-width: 1440px;
+
+  /* Radios */
+  --radius-card: 18px;
+  --radius-image: 16px;
+  --radius-pill: 100px;
+
+  /* Sombra */
+  --shadow-menu: 0 12px 24px rgba(0, 0, 0, 0.08);
+
+  /* Breakpoint de referencia (mobile) */
+  --breakpoint-mobile: 820px;
+}

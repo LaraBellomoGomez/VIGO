@@ -1,0 +1,61 @@
+.row {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  padding: 32px 0;
+  border-bottom: 1px solid var(--color-borde);
+}
+
+.row:last-child {
+  border-bottom: none;
+}
+
+@media (max-width: 820px) {
+  .row {
+    flex-direction: column;
+    align-items: stretch;
+    text-align: center;
+  }
+}
+
+.photoCard {
+  flex-shrink: 0;
+  width: 260px;
+  text-align: center;
+}
+
+@media (max-width: 820px) {
+  .photoCard {
+    width: 100%;
+    max-width: 260px;
+    margin: 0 auto;
+  }
+}
+
+.photo {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: var(--radius-image);
+  margin-bottom: 14px;
+}
+
+.name {
+  font-family: var(--font-titulos);
+  font-size: 17px;
+  font-weight: 600;
+  color: var(--color-carbon);
+}
+
+.role {
+  font-size: 13px;
+  color: var(--color-gris-piedra);
+  margin-top: 2px;
+}
+
+.bio {
+  font-size: 15px;
+  line-height: 1.65;
+  color: var(--color-gris-texto);
+  max-width: 520px;
+}
