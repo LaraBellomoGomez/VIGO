@@ -1,0 +1,20 @@
+.wrapper {
+  text-align: center;
+  max-width: 560px;
+  margin: 0 auto;
+  padding: 70px 20px 90px;
+}
+
+.title {
+  font-size: var(--fs-h2);
+  color: var(--color-carbon);
+  margin: 0 0 18px;
+  text-wrap: balance;
+}
+
+.paragraph {
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--color-gris-texto);
+  margin: 0 0 30px;
+}

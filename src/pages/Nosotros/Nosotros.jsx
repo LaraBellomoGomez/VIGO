@@ -1,9 +1,9 @@
 import { team } from '../../data/content';
 import SectionHeading from '../../components/SectionHeading';
-import ContactSection from '../../components/ContactSection';
 import TeamIntro from './TeamIntro';
 import Highlights from './Highlights';
 import TeamProfile from './TeamProfile';
+import SimpleCta from './SimpleCta';
 import styles from './Nosotros.module.css';
 
 export default function Nosotros() {
@@ -22,7 +22,7 @@ export default function Nosotros() {
         ))}
       </div>
 
-      <ContactSection headingLevel="h2" />
+      <SimpleCta />
     </div>
   );
 }
